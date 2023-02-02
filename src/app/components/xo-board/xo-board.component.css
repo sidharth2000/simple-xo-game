@@ -1,0 +1,18 @@
+.main-box{
+    height: 310px;
+    width: 310px;
+    margin-top: 8%;
+}
+
+.row{
+    height: 100px;
+}
+
+button{
+    height: 99%;
+    width: 99%;
+}
+
+.col-md-4{
+    padding: 0;
+}

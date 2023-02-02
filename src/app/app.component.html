@@ -1,0 +1,14 @@
+<div class="xo-app-page">
+  <div class="board-box">
+    <app-xo-board (winEvent)="onWin($event)" *ngIf="viewBoard" ></app-xo-board>
+    <div class="text-light text-center h3" style="height: 40px;margin-top: 8%;" *ngIf="!viewBoard">{{status}}</div>
+  </div>
+  <div class="row text-light text-center">
+    <div class="col-md-6 fw-bold">X-SCORE</div>
+    <div class="col-md-6 fw-bold">O-SCORE</div>
+</div>
+<div class="row text-light text-center" style="height: 30px;">
+    <div class="col-md-6">{{xscore}}</div>
+    <div class="col-md-6">{{oscore}}</div>
+</div>
+</div>
